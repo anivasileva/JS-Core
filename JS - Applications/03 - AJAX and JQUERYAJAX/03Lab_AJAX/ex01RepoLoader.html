@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repo Loader</title>
+</head>
+<body>
+<button onclick="loadRepos()">Load Repos</button>
+<div id="res"></div>
+<script>
+    function loadRepos() {
+        let req = new XMLHttpRequest();
+        req.onreadystatechange = function () {
+            console.log(`Current state: ` + req.readyState);
+            if (req.readyState === 4) {
+
+                document.getElementById("res").textContent = req.responseText;
+
+            }
+        };
+
+        req.open("GET", "https://api.github.com/users/testnakov/repos", true); //true oznachava che e asinhronno
+        req.send();
+    }
+</script>
+</body>
+</html>
