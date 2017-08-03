@@ -11,6 +11,13 @@ function attachEvents() {
         $.ajax(request);
     }
 
+    /*
+     "-KWi2_-QHxL1yov93j5i": {
+     "author": "Pesho",
+     "content": "hi guys",
+     "timestamp": 1479315195400
+     }
+     */
     function displayFunc(messages) {
         let output = $("#messages");
         let messageStr = "";
@@ -21,7 +28,7 @@ function attachEvents() {
     }
 
     function submitFunc() {
-        let newMessage= {
+        let newMessage = {
             "author": $("#author").val(),
             "content": $("#content").val(),
             "timestamp": Date.now()
