@@ -1,0 +1,28 @@
+14:15
+14:18 s.split('') vrushta masiv Array["h","e"...];
+Array.from(s).reverse 
+2:22 indexOf('Java') 7 I am a JavaScript developer vrushta ot tam otkudeto zapochva
+str.indexOg('C#'); vrushta -1 zashtoto go nqma 
+str.substr(5); vzimame dymichkata koqto se namira na suotvetniq index 
+str.subst(7); " JavaScript developer" ot 7 do kraq 
+NO str.subst(7,10) do 10  JavaScript nachalo i duljina
+str.substring(7,10); 10 e kraen indeks "Jav"  nachalo i krai 
+str.substr(-2)  "er"
+i do i sled 14:28 gledai!! s.split('').filter(c=>c!='') maha praznite " "
+replace('','')podavame dymichka i kazvame s kakvo da q zamenim
+14:31/32!! . replace e samo za purvata duma ako ima pak druka takava duma ne q zamenq 
+14:35 zadacha 3 
+
+Find the first occurrence of the letter "e" in a string, starting the search at position 5:
+var str = "Hello world, welcome to the universe.";
+var n = str.indexOf("e", 5);
+result:14
+.trim() maha '    ' 
+. reduce((a,b)=>a+b); da izchisli vsichki chisla ot masiva 
+.map(Number);
+
+15:25 html excaping
+
+
+
+

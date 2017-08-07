@@ -1,0 +1,41 @@
+14:11 obj = {name: "Pesho",age:12}
+obg.age 12
+obj.ame="Kiro"
+
+obj["name"] Kiro  2:12
+
+obj[5]=18
+object {s:18 name:"Kiro" ,age 12}
+
+console.log(key) name, age,my property
+console.log(obj[key]) undefined 12 some value 12:17
+
+2:23 Jason 
+ 1 zad
+let towns=[]
+strArr.shift()
+let tokens= row.split('|').filter(e=>e!='').map(e=>e.trim())
+let town={
+Town:townTokens[0],
+Latitude:Numbrer(townTokens[1]),
+Longtitute:Number(..[2]);
+}
+
+towns.push(town);
+
+return JSON.stringify(towns);
+
+MAP 3:04
+let phonebook={}
+phonebook['John smith']='+359 02 54 56'
+phonebook['John smith']  vrushta ni "telefona"
+
+
+delete phonebook['John smith']  
+Object.keys(phonebook) tova ni vrushta vsichki key(John Smith)
+
+4:14 map 
+
+
+
+

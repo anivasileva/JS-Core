@@ -1,0 +1,37 @@
+14:31-14:34
+14:34-35 .foreach
+.join vsichi el gi prevrushta v string i gi zalepq 14:36 -38
+
+14:41-2
+14:48 pop,push,shift,unshift SAMO ZA MASIVI
+v nachaoto result.unshift
+result.push nakraq na masiva 
+
+za da ti izkara rezyltata vs chislo na nov red:
+ console.log(result.join('\n'));
+ili
+for (let res of result) {
+        console.log(res);
+    }
+
+3:16-17 pop
+15:18-19 concat
+18:20 slice splice
+.slice(0,2) vzemi mi 0 i 1 element ot []
+splice(1,2) sled purviq element mi iztrii 2 elementa
+do i 26!!!! GLEDAI ZADULJITELNNO
+arr.shift 15:28
+do i 36!! posle imazadacha ako iskash q gledai 
+   15:46-47
+arr.sort((a,b)=>a-b);
+3:52 predi nego gledai kak se reshva zadachata 
+3:52 matrici do 4:08
+4:10 reduce 
+
+
+arr.filter((num,i)=>i%2==1) vzemi mi vsichki chisla, na koito poziciqt e nechetna
+.map(num=>num*2) ymnoji mi gi po 2
+.reverse oburni gi
+
+
+

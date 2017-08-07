@@ -1,0 +1,10 @@
+problem s indeksite na nqkakuv masiv RangeError 
+try catch v ex02PlayingCards
+15:10 import make card ....
+
+
+UNIT TESTING 
+3:46 describe("Test summator",function()){ gledai go do kraq 
+3:56 ti obqsnqva kak da si go konfigurirash
+
+npm install chai

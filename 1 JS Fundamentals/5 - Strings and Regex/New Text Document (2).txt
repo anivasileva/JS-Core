@@ -1,0 +1,4 @@
+?=\s sled dymata da ima ' '
+?<=\s pogledni mi dali otpred ima ' ' // tova go nama v java Script
+(?:\s) grypa za speisa koqto q nqma 
+
